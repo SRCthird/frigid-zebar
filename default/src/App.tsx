@@ -29,7 +29,7 @@ const App = () => {
       <Left>
         <Workspaces
           glazewm={output.glazewm}
-          fontFamily='FiraCode Nerd Font Mono'
+          fontFamily='NerdFontsSymbols Nerd Font'
         />
       </Left>
 
