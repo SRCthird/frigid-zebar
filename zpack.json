@@ -1,0 +1,67 @@
+{
+  "$schema": "https://github.com/glzr-io/zebar/raw/v3.2.0/resources/zpack-schema.json",
+  "name": "frigid-zebar",
+  "version": "1.0.0",
+  "description": "Default React boilerplate with some QoL updates and tweaks",
+  "tags": [],
+  "previewImages": [
+    "./resources/preview-image-1.png"
+  ],
+  "repositoryUrl": "",
+  "widgets": [
+    {
+      "name": "default",
+      "htmlPath": "default/dist/index.html",
+      "zOrder": "normal",
+      "shownInTaskbar": false,
+      "focused": false,
+      "resizable": false,
+      "transparent": true,
+      "includeFiles": [
+        "default/dist/**"
+      ],
+      "caching": {
+        "defaultDuration": 604800,
+        "rules": []
+      },
+      "privileges": {
+        "shellCommands": [
+          {
+            "program": "powershell",
+            "argsRegex": "-Command Start-Process ms-settings:network-status"
+          },
+          {
+            "program": "powershell",
+            "argsRegex": "-Command Start-Process bingweather://"
+          },
+          {
+            "program": "powershell",
+            "argsRegex": "-Command Start-Process taskmgr"
+          },
+          {
+            "program": "-Command Start-Process",
+            "argsRegex": "ms-settings:powersleep"
+          }
+        ]
+      },
+      "presets": [
+        {
+          "name": "default",
+          "anchor": "top_left",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "width": "100%",
+          "height": "40px",
+          "monitorSelection": {
+            "type": "all"
+          },
+          "dockToEdge": {
+            "enabled": false,
+            "edge": null,
+            "windowMargin": "0px"
+          }
+        }
+      ]
+    }
+  ]
+}
