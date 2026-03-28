@@ -3,11 +3,19 @@
   "name": "frigid-zebar",
   "version": "1.0.0",
   "description": "Default React boilerplate with some QoL updates and tweaks",
-  "tags": [],
-  "previewImages": [
-    "./resources/preview-image-1.png"
+  "tags": [
+    "clean",
+    "music",
+    "minimal",
+    "offline",
+    "integration",
+    "windows"
   ],
-  "repositoryUrl": "",
+  "previewImages": [
+    "resources\\preview-image-2.png",
+    "resources\\preview-image-1.png"
+  ],
+  "repositoryUrl": "https://github.com/srcthird/frigid-zebar",
   "widgets": [
     {
       "name": "default",
