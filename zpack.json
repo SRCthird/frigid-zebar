@@ -18,15 +18,15 @@
   "repositoryUrl": "https://github.com/srcthird/frigid-zebar",
   "widgets": [
     {
-      "name": "default",
-      "htmlPath": "default/dist/index.html",
+      "name": "minimal",
+      "htmlPath": "minimal/dist/index.html",
       "zOrder": "normal",
       "shownInTaskbar": false,
       "focused": false,
       "resizable": false,
       "transparent": true,
       "includeFiles": [
-        "default/dist/**"
+        "minimal/dist/**"
       ],
       "caching": {
         "defaultDuration": 604800,
