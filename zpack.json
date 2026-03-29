@@ -19,14 +19,14 @@
   "widgets": [
     {
       "name": "minimal",
-      "htmlPath": "minimal/dist/index.html",
+      "htmlPath": "minimal/index.html",
       "zOrder": "normal",
       "shownInTaskbar": false,
       "focused": false,
       "resizable": false,
       "transparent": true,
       "includeFiles": [
-        "minimal/dist/**"
+        "minimal/**"
       ],
       "caching": {
         "defaultDuration": 604800,
@@ -73,14 +73,14 @@
     },
     {
       "name": "plus",
-      "htmlPath": "plus/dist/index.html",
+      "htmlPath": "plus/index.html",
       "zOrder": "normal",
       "shownInTaskbar": false,
       "focused": false,
       "resizable": false,
       "transparent": true,
       "includeFiles": [
-        "plus/dist/**"
+        "plus/**"
       ],
       "caching": {
         "defaultDuration": 604800,
